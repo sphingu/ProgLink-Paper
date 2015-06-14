@@ -2,5 +2,5 @@
 
 Router.configure
     layoutTemplate: 'layout',
-    loadingTemplate: 'loading',
+    loadingTemplate: 'loader',
     notFoundTemplate: 'notFound'

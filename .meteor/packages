@@ -10,3 +10,5 @@ insecure
 iron:router
 bootswatch:paper
 coffeescript
+multiply:iron-router-progress
+momentjs:moment

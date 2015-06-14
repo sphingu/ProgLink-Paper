@@ -1,4 +1,5 @@
 # routes/main.coffee
+
 Router.route '/', ->
     @render 'home'
     return
@@ -8,13 +9,9 @@ Router.route 'Home', ->
     return
 
 Router.route 'Categories', ->
-    @render 'home'
+    @render 'categoryList'
     return
 
 Router.route 'Contact', ->
     @render 'contact'
-    return
-
-Router.route 'About', ->
-    @render 'home'
     return
