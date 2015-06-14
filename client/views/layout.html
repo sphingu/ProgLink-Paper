@@ -1,0 +1,15 @@
+<!-- /Client/views/layout.html -->
+
+<template name="layout">
+    {{>nav}}
+
+    <section class="container" style="margin-top:70px">
+        {{>yield}}
+    </section>
+
+    {{>footer}}
+
+    <script type="text/javascript">
+    //Script which sould be run after page load goes here(Like toastr configuration)
+    </script>
+</template>
